@@ -1,13 +1,12 @@
-# Documentation of QUIP+LAMMPS on Wesleyan HPCC  
+# Documentation of QUIP+LAMMPS build on Wesleyan HPCC  
 
-
-QUIP Build:
 QUIP is built as a linkable library for LAMMPS following this [documentation](https://github.com/libAtoms/QUIP/blob/public/README.md).
-Architecture was selected as linux_x86_64_ifort_gcc_openmp using,
+So far the architectures linux_x86_64_ifort_gcc_openmp and linux_x86_64_ifort_icc_openmp have been built.
+  
+Starting with changing the enviroment variable
 ```bash
 export QUIP_ARCH=linux_x86_64_ifort_gcc_openmp
 ```
-this was done in attempt to match the LAMMPS build with KOKKOS for GPU support as detailed in _/share/apps/CENTOS7/lammps/3Mar2020.install_
 
 The make config file was then built inside the top level directory using
 ```bash
