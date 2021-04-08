@@ -3,7 +3,7 @@
 QUIP is built as a linkable library for LAMMPS following this [documentation](https://github.com/libAtoms/QUIP/blob/public/README.md).
 So far the architectures linux_x86_64_ifort_gcc_openmp and linux_x86_64_ifort_icc_openmp have been built.
   
-Starting with changing the enviroment variable
+Starting with changing the architecture enviroment variable
 ```bash
 export QUIP_ARCH=linux_x86_64_ifort_gcc_openmp
 ```
