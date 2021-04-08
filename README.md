@@ -9,11 +9,12 @@ export QUIP_ARCH=linux_x86_64_ifort_gcc_openmp
 ```
 this was done in attempt to match the LAMMPS build with KOKKOS for GPU support as detailed in _/share/apps/CENTOS7/lammps/3Mar2020.install_
 
-The make config file was then built using
+The make config file was then built inside the top level directory using
 ```bash
 make config
 ```
-inside the top level directory. All defaults were selected except for
+
+All defaults were selected except for
 ```
 Would you like to compile with GAP support?
 ```
